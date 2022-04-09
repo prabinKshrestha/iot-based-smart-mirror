@@ -1,0 +1,184 @@
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+header >h1{
+    text-align:center;
+}
+header >h4{
+    text-align:right;
+    margin: 0px;
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+.body-left-container{
+    width: 60%;
+    float: left;
+}
+.body-right-container{
+    width: 40%;
+    float: right;
+}
+.weather{
+    display: block;
+    overflow: hidden;
+    /*height: 150px;*/
+}
+.weather >.main-weather-icon{
+    float: left;
+    width: 20%;
+    padding: 5px 5px;
+}
+.weather >.weather-description{
+    float: right;
+    width: 70%;
+    padding: 5px 5px;
+}
+.weather >.weather-icon{
+    height: auto;
+    width: auto;
+}
+.daily-weather-main{
+    display:flex;
+    width: 100%;
+    /* overflow: hidden; */
+}
+.daily-weather{
+    position: relative;
+    width: 100%;
+    /* float: right; */
+    /* margin: 0px 0px 0px 121px; */
+}
+.daily-weather >.daily-weather-icon{
+    /* width: 72%; */
+    padding: 5px 5px;
+    position: absolute;
+    left: 10px;
+}
+.daily-weather >.daily-weather-description{
+    padding: 5px 5px;
+    position: absolute;
+    /* top: 5px; */
+    top: 12px;
+    left: 75px;
+    /* right: 0; */
+}
+.daily-weather >.weather-icon-daily{
+    height: auto;
+    width: auto;
+}
+#date{
+    font-size: 20px;
+    font-weight: bolder;
+}
+#time{
+    font-size: 60px;
+    font-weight: bolder;
+}
+#day {
+    font-size: 20px;
+    font-weight: bolder;
+}
+p{
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p#temperature {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+p#current-weather-des {
+    font-size: 20px;
+}
+p#temp-range {
+    font-size: 17px;
+    margin: 5px 0px;
+}
+.todo-main-header{
+    border-bottom: 1px solid white;
+    padding: 0px 0px;
+    margin: 35px 0px;
+}
+h4 {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: bold;
+}
+section.main-todo {
+    margin: 293px 0px 0px 0px;
+    width: 60%;
+    font-weight: bold;
+}
+.todo-items{
+    overflow: hidden;
+    margin: 5px 5px;
+}
+span.todo-title {
+    float: left;
+}
+
+span.todo-date {
+    float: right;
+}
+.highlight-todo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.headline-main-header{
+    border-bottom: 1px solid white;
+    padding: 0px 0px;
+    margin: 35px 0px 0px 0px;
+    overflow: hidden;
+}
+.headline-title{
+    float: left;
+}
+.headlines{
+    margin: 285px 0px 0px 0px;
+    width: 90%;
+    padding: 0px;
+}
+.headline-body{
+    overflow: hidden;
+    margin: 5px 5px;
+    list-style: none;
+    padding: unset !important;
+}
+.headline-body >li{
+    margin: 10px 0px;
+}
+.newspaper-title{
+    float: right;
+}
+.headline-body{
+    font-weight: bold;
+}
+.headline-date{
+    float: right;
+}
+p.daily-weather-day {
+    /* text-align: right; */
+    font-size: 19px;
+    font-weight: bolder;
+}
+p.daily-weather-summary {
+    font-size: 14px;
+}
+span.headline-title-topic {
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+    opacity: 1 !important;
+}
+span.headline-detail-topic {
+    margin-top: 25px;
+}
